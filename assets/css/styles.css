@@ -21252,6 +21252,7 @@ ul.files-main-nav li div.filemanager-upgrade-storage img {
 }
 .avatar.avatar-rounded img {
   border-radius: 50%;
+  object-fit: cover;
 }
 .avatar.avatar-radius-0 {
   border-radius: 0;
