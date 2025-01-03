@@ -102,3 +102,12 @@ display: none;
     height: 246px;
     overflow-y: scroll
 }
+.tggleic {
+    text-align: center !important;
+    line-height: 42px !important;
+    cursor: pointer;
+}
+.blog-featured{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}

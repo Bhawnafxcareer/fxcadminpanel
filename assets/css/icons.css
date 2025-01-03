@@ -22417,12 +22417,12 @@ readers do not read off random characters that represent icons */
     font-weight: normal;
     font-style: normal;
 
-    src: url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.eot');
-    src: url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.eot') format('embedded-opentype'),
-    url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.woff2') format('woff2'),
-    url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.woff') format('woff'),
-    url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.ttf') format('truetype'),
-    url('https://php.spruko.com/xintra/xintra/../icon-fonts/boxicons/fonts/boxicons.svg?#boxicons') format('svg');
+    src: url('../icon-fonts/boxicons/boxicons.eot');
+    src: url('../icon-fonts/boxicons/boxicons.eot') format('embedded-opentype'),
+    url('../icon-fonts/boxicons/boxicons.woff2') format('woff2'),
+    url('../icon-fonts/boxicons/boxicons.woff') format('woff'),
+    url('../icon-fonts/boxicons/boxicons.ttf') format('truetype'),
+    url('../icon-fonts/boxicons/boxicons.svg?#boxicons') format('svg');
 }
 .bx
 {
@@ -22435,7 +22435,6 @@ readers do not read off random characters that represent icons */
     display: inline-block;
 
     text-transform: none;
-
     speak: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
